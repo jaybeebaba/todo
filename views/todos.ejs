@@ -1,0 +1,17 @@
+<%- include ("./partials/header")%>
+
+
+<div class="container main" class="my-3">
+    <%todos.forEach(function(todo){%>
+    <div style="width: 50%;margin:20px auto; border-radius:5px; padding:auto 5px auto;background: #f3ca20;">
+            <%=todo.todo%>
+            <a href="/<%=todo._id%>/edit">Edit</a>
+            <form class="form-group" style="display:inline-block; position: relative; " action="/<%=todo.id%>?_method=DELETE" method="POST">
+                    <button class="btn btn-danger btn-sm">Delete</button>
+            </form>
+    </div>
+    <%})%>
+</div>
+
+
+<%- include ("./partials/footer")%>

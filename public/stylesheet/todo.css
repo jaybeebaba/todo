@@ -1,0 +1,32 @@
+body{
+    background:rgba(0,0,0,0.5);
+}
+
+/* #navbarSupportedContent > form > input.btn.btn-dark.btn-sm{
+    margin-left: 10px;
+    border: 2px solid #f3ca20;
+    background:  #f3ca20;
+}
+
+#body > div > li {
+    background: #f3ca20;
+    width: 50%;
+    height: 50px;
+    margin-right: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 3%;
+    position: absolute;
+}
+
+#body > div > form > button{
+    display: inline;
+    position: relative;
+    top: -20px;
+    right: -250px
+}
+
+/* .all{
+    margin: auto;
+} */ */
+
